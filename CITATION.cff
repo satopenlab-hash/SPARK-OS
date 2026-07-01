@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use or reference OpenLab OS, please cite this repository."
+title: "OpenLab OS"
+version: "0.1.0"
+date-released: "2026-06-30"
+authors:
+  - family-names: "Vargas"
+    given-names: "Roger"
+abstract: "A human-governed operating system for Agentic Education, proof-of-learning, and AI-assisted learning workflows."
+license: "Proprietary"

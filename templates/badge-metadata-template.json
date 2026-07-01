@@ -1,0 +1,49 @@
+{
+  "type": "OpenLabRecognitionRecord",
+  "status": "Genesis",
+  "title": "Example Recognition Title",
+  "description": "A human-issued, non-financial proof-of-learning recognition record.",
+  "issuedBy": {
+    "name": "Authorized Human Issuer",
+    "role": "Teacher or approved community reviewer"
+  },
+  "subject": {
+    "type": "LearnerOrProject",
+    "publicIdentifier": "synthetic-example-only"
+  },
+  "criteria": [
+    "Describe the validated learning criterion."
+  ],
+  "evidence": [
+    {
+      "label": "Artifact",
+      "url": "relative-or-private-link",
+      "privacy": "private"
+    },
+    {
+      "label": "Learner reflection",
+      "url": "relative-or-private-link",
+      "privacy": "private"
+    }
+  ],
+  "review": {
+    "reviewer": "Authorized human reviewer",
+    "decision": "approved | revise | not-yet",
+    "date": "YYYY-MM-DD",
+    "limitations": [
+      "Recognition does not replace a transcript, grade, license, or formal institutional credential."
+    ]
+  },
+  "aiAssistance": {
+    "used": false,
+    "disclosure": "Describe any material AI role in organizing, drafting, or reviewing."
+  },
+  "financialization": {
+    "tradable": false,
+    "tokenized": false
+  },
+  "privacy": {
+    "containsPII": false,
+    "publicShareable": false
+  }
+}
