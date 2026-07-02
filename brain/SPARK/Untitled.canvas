@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"0f37b08e1a588be4","x":-200,"y":-320,"width":400,"height":400,"color":"4","type":"file","file":"Untitled.canvas"},
+		{"id":"c8426d257982b9ea","x":-200,"y":120,"width":400,"height":400,"type":"file","file":"Clippings/GH600 certification beta - Branch · GH600 Project Durability.md"},
+		{"id":"5fa08c2a6c4c664e","x":-560,"y":-150,"width":250,"height":60,"type":"text","text":"here"}
+	],
+	"edges":[]
+}
