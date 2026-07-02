@@ -196,12 +196,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +214,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "43cc45a2a666b837",
+  "active": "15eb983bd12f456b",
   "lastOpenFiles": [
     "Untitled.md",
     "create a link.md",
