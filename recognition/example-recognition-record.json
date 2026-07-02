@@ -1,0 +1,53 @@
+{
+  "type": "OpenLabRecognitionRecord",
+  "status": "Genesis",
+  "title": "Environmental Sensor Mission -- Evidence-Based Reasoning (Synthetic Pilot)",
+  "description": "Synthetic example recognition record for a fully synthetic learner ('Learner A') who completed the Environmental Sensor Mission's data story, proposed improvement, and reflection cycle, reviewed by a real authorized teacher. No real student is represented.",
+  "issuedBy": {
+    "name": "Mr. V",
+    "role": "Teacher of record"
+  },
+  "subject": {
+    "type": "LearnerOrProject",
+    "publicIdentifier": "synthetic-example-only"
+  },
+  "criteria": [
+    "Collected and used timestamped sensor readings without inventing data",
+    "Identified a specific pattern in the data and tied it to concrete values",
+    "Proposed an improvement supported by a stated rationale",
+    "Distinguished the AI agent's role from the learner's own reasoning in the final reflection"
+  ],
+  "evidence": [
+    {
+      "label": "Mission and rubric",
+      "url": "../learning/environmental-sensor-mission.md",
+      "privacy": "public"
+    },
+    {
+      "label": "Pilot evaluation report",
+      "url": "../learning/environmental-sensor-mission-pilot-evaluation.md",
+      "privacy": "public"
+    }
+  ],
+  "review": {
+    "reviewer": "Mr. V",
+    "decision": "approved",
+    "date": "2026-07-01",
+    "limitations": [
+      "Recognition does not replace a transcript, grade, license, or formal institutional credential.",
+      "Based on a synthetic learner pilot, not a real classroom deployment (see governance/adr-001-synthetic-pilot-evidence-for-v0-1-closure.md)."
+    ]
+  },
+  "aiAssistance": {
+    "used": true,
+    "disclosure": "The Reflection Coach agent (learning/reflection-coach-agent-contract.md) asked clarifying questions and checked which rubric evidence was present. It did not write the reflection, choose the proposed improvement, or invent sensor data."
+  },
+  "financialization": {
+    "tradable": false,
+    "tokenized": false
+  },
+  "privacy": {
+    "containsPII": false,
+    "publicShareable": true
+  }
+}

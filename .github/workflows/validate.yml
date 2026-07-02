@@ -1,0 +1,31 @@
+name: Validate recognition records and synthetic data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "recognition/**"
+      - "data/synthetic/**"
+      - "examples/**"
+      - "templates/badge-metadata*.json"
+      - "scripts/**"
+  pull_request:
+    paths:
+      - "recognition/**"
+      - "data/synthetic/**"
+      - "examples/**"
+      - "templates/badge-metadata*.json"
+      - "scripts/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate recognition record structure and red lines
+        run: python3 scripts/validate_badge_metadata.py
+      - name: Scan public folders for likely PII
+        run: python3 scripts/scan_synthetic_data.py
