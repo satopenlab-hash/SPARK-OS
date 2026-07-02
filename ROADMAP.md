@@ -17,8 +17,10 @@
 - [ ] Human-AI collaboration rubric
 - [ ] Teacher validation workflow
 - [ ] Synthetic evidence dataset
-- [ ] Evaluation report format
-- [ ] Decision records for important design choices
+- [x] Evaluation report format
+      — see `templates/evaluation-report-template.md`, demonstrated in `learning/environmental-sensor-mission-pilot-evaluation.md`
+- [x] Decision records for important design choices
+      — see `templates/decision-record-template.md`, demonstrated in `governance/adr-001-synthetic-pilot-evidence-for-v0-1-closure.md`
 
 ## v0.3 — Research Prototype
 
